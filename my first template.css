@@ -1,0 +1,313 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ .main{
+     background-color:rgb(18, 18, 90);
+ }
+ #img1{
+    width: 45px;
+     height: 45px;
+     margin: 3px;
+ }
+ #img2{
+    width: 30px;
+     height: 45px;
+     margin: 3px;
+ }
+ #btn1{
+     height: 40px;
+     margin: 10px;
+     padding: 10px;
+     cursor: pointer;
+ }
+ ol{
+   display: flex;
+ }
+ li{
+     list-style:none;
+     padding: 7px;
+     margin-left: 20px;
+     color: white;
+    cursor: pointer;
+    margin: 7px;
+ }
+ li:hover{
+     color: orangered;
+     border: none;
+     
+ }
+ /* .parent{
+     margin: 5px;
+ } */
+ .child{
+     
+     display: none;
+     position: absolute;
+     background-color:blue;     
+ }
+ 
+ .parent:hover .child {
+        
+     display: block;
+ }
+ /* .easy{
+     display:none;
+     position: absolute;
+     background-color: blue;
+    left: 100px;
+ } */
+ /* .grand:hover .easy{
+     display: block;
+ } */
+ #btn1:hover{
+        background-color: rgb(123, 112, 218);
+        
+ }
+ .a123{
+     background-image: url("images.png");
+     width: 50px;
+ }
+ /* #acn{
+     margin: 3px;
+     
+ }
+ #acb{
+   
+    /* margin-right: 20px; */
+     /* padding: 10px;
+    } */ 
+    /* .container {
+position: relative;
+max-width: 800px;  Maximum width
+margin: 0 auto;  Center it 
+} */
+
+
+.container .content {
+position: absolute; /* Position the background text */
+bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+/* background: rgb(0, 0, 0); /* Fallback color 
+background: rgba(0, 0, 0, 0.5); Black background with 0.5 opacity */
+color: black; /* Grey text */
+/* Full width */
+padding: 190px;/* Some padding */
+margin-left: 230px;
+padding-bottom: 400px;
+}
+#p1{
+font-size: 16px;
+}
+#img4{
+width: 230px;
+height: 230px;
+margin: 60px;
+padding-left: 120px;
+}
+.sec34{
+display: inline-flex;
+}
+.sec3{
+width: 25%;
+}
+.sec33{
+width: 75%;
+margin: 130px;
+padding-right: 150px;
+}
+.centered {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.container1 {
+position: relative;
+text-align: center;
+color: black;
+}
+#img41{
+
+margin-top: 50px;
+width: 750px;
+height: 150px;
+}
+#head2{
+margin-bottom: 20px;
+}
+#p2{
+font-size: 17px;
+}
+.sec55{
+display: inline-flex;
+}
+.sec5{
+width: 70%;
+margin-top: 80px;
+margin-left: 100px;
+}
+.sec6{
+width: 30%;
+}
+#img55{
+width: 240px;
+height: 240px;
+margin: 60px;
+/* padding-left: 100px; */
+}
+.sec7{
+background-color: thistle;
+height: 150px;
+}
+#head7{
+padding-top: 50px;
+}
+.sec8{
+background-color: rgb(36, 36, 105);
+height: 300px;
+}
+#head8{
+padding-top: 80px;
+color: white;
+font-size: 30px;
+}
+#btn8{
+margin-top: 40px;
+width: 300px;
+height: 50px;
+cursor: pointer;
+}
+#btn8:hover{
+background-color: orangered;
+}
+.foot{
+display: inline-flex;
+background-color: rgb(3, 3, 58);
+height: 400px;
+width: 100%;
+color: white;
+
+}
+#foot1{
+width: 25%;
+}
+#foot2{
+width: 25%;
+}
+#foot3{
+width: 25%;
+}
+#foot4{
+width: 25%;
+}
+#head9{
+padding-top: 100px;
+padding-left: 40px;
+
+}
+.ac1{
+margin-top: 30px;
+padding-left: 40px;
+}
+#head10{
+padding-top: 100px;
+padding-left: 40px;
+
+}
+.ac2{
+margin-top: 30px;
+padding-left: 40px;
+
+}
+#head11{
+padding-top: 100px;
+padding-left: 40px;
+
+}
+.ac3{
+margin-top: 30px;
+padding-left: 40px;
+}
+#head12{
+padding-top: 100px;
+padding-left: 40px;
+
+}
+.ac4{
+margin-top: 30px;
+padding-left: 40px;
+}
+#a1{
+text-decoration: double;
+color: rgb(207, 207, 17);
+}
+#a1:hover{
+color: red;
+}
+.a2{
+text-decoration: double;
+color:rgb(207, 207, 17);
+}
+.a2:hover{
+color: red;
+}
+.a3{
+text-decoration: double;
+color: rgb(207, 207, 17);
+}
+.a3:hover{
+color: red;
+}
+.a4{
+text-decoration: double;
+color:rgb(207, 207, 17);
+}
+.a4:hover{
+color: red;
+}
+.fa {
+padding: 8px;
+font-size: 30px;
+width: 10px;
+text-align: center;
+text-decoration: none;
+margin: 5px 2px;
+}
+
+.fa:hover {
+opacity: 0.7;
+}
+
+.fa-facebook {
+/* background: #3B5998; */
+color: white;
+}
+
+.fa-twitter {
+/* background: #55ACEE; */
+color: white;
+}
+
+.fa-google {
+/* background: #dd4b39; */
+color: white;
+}
+
+.fa-linkedin {
+/* background: #007bb5; */
+color: white;
+}
+
+.fa-youtube {
+/* background: #bb0000; */
+color: white;
+}
+
+.fa-instagram {
+/* background: #125688; */
+color: white;
+}
+.fa-pinterest {
+/* background: #cb2027; */
+color: white;
+}
